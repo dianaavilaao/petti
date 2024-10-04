@@ -22,3 +22,6 @@ def perfil_usuario(request):
 
 def registro_usuarios(request):
     return render(request, 'registroUsuarios.html')
+
+def index2(request):
+    return render(request, 'index2.html')

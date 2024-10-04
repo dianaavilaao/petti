@@ -18,7 +18,7 @@
   }
   .index-header {
     gap: 24px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     padding: 32px;
     overflow: hidden;
@@ -183,7 +183,7 @@
   }
   .index-card-grid-image {
     gap: 48px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     padding: 64px;
     align-items: flex-start;
@@ -380,7 +380,7 @@
   }
   .index-hero-image {
     gap: 32px;
-    width: 1200px;
+    width: 100%;
     height: 279px;
     display: flex;
     padding: 23px 24px 20px;
@@ -437,7 +437,7 @@
   }
   .index-card-grid-reviews {
     gap: 48px;
-    width: 1200px;
+    width: 100%;
     height: 492px;
     display: flex;
     padding: 64px;
@@ -808,7 +808,7 @@
   }
   .index-footer {
     gap: 16px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     padding: 32px 32px 160px;
     overflow: hidden;
