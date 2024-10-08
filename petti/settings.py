@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pettiApp',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +53,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'petti.urls'
 
 
-
+AUTH_USER_MODEL = 'pettiApp.User'
 
 
 
