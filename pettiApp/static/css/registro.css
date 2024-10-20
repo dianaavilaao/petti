@@ -1,4 +1,4 @@
-.iniciodesesiondeusuarios-container {
+.registrodesesindeusuarios-container {
     width: 100%;
     display: flex;
     overflow: auto;
@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-iniciodesesiondeusuarios {
+  .registrodesesindeusuarios-registrodesesindeusuarios {
     width: 100%;
     height: auto;
     display: flex;
@@ -16,7 +16,7 @@
     flex-direction: column;
     background-color: rgba(253, 253, 250, 1);
   }
-  .iniciodesesiondeusuarios-header {
+  .registrodesesindeusuarios-header {
     gap: 24px;
     width: 1200px;
     display: flex;
@@ -27,11 +27,11 @@
     flex-shrink: 0;
     background-color: rgba(2, 16, 89, 1);
   }
-  .iniciodesesiondeusuarios-image2111 {
+  .registrodesesindeusuarios-image2111 {
     width: 127px;
     height: 52px;
   }
-  .iniciodesesiondeusuarios-navigation-pill-list {
+  .registrodesesindeusuarios-navigation-pill-list {
     gap: 8px;
     width: 747px;
     display: flex;
@@ -40,7 +40,7 @@
     flex-shrink: 0;
     justify-content: flex-end;
   }
-  .iniciodesesiondeusuarios-navigation-pill1 {
+  .registrodesesindeusuarios-navigation-pill1 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -48,7 +48,7 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .iniciodesesiondeusuarios-navigation-pill2 {
+  .registrodesesindeusuarios-navigation-pill2 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -56,7 +56,7 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .iniciodesesiondeusuarios-navigation-pill3 {
+  .registrodesesindeusuarios-navigation-pill3 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -64,13 +64,13 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .iniciodesesiondeusuarios-text10 {
+  .registrodesesindeusuarios-text10 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     text-align: left;
     line-height: 100%;
   }
-  .iniciodesesiondeusuarios-navigation-pill4 {
+  .registrodesesindeusuarios-navigation-pill4 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -78,13 +78,13 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .iniciodesesiondeusuarios-text12 {
+  .registrodesesindeusuarios-text12 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     text-align: left;
     line-height: 100%;
   }
-  .iniciodesesiondeusuarios-navigation-pill5 {
+  .registrodesesindeusuarios-navigation-pill5 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -92,20 +92,20 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .iniciodesesiondeusuarios-text14 {
+  .registrodesesindeusuarios-text14 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     text-align: left;
     line-height: 100%;
   }
-  .iniciodesesiondeusuarios-header-auth {
+  .registrodesesindeusuarios-header-auth {
     gap: 12px;
     width: 178px;
     display: flex;
     align-items: center;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-button1 {
+  .registrodesesindeusuarios-button1 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -117,14 +117,14 @@
     border-radius: 8px;
     justify-content: center;
   }
-  .iniciodesesiondeusuarios-text15 {
+  .registrodesesindeusuarios-text15 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
     text-align: left;
     line-height: 100%;
   }
-  .iniciodesesiondeusuarios-button2 {
+  .registrodesesindeusuarios-button2 {
     gap: 8px;
     display: flex;
     padding: 8px;
@@ -134,16 +134,16 @@
     justify-content: center;
     background-color: rgba(115, 233, 30, 1);
   }
-  .iniciodesesiondeusuarios-text17 {
+  .registrodesesindeusuarios-text17 {
     color: rgba(2, 16, 89, 1);
     height: auto;
     text-align: center;
     line-height: 100%;
   }
-  .iniciodesesiondeusuarios-frame2 {
+  .registrodesesindeusuarios-frame2 {
     gap: 17px;
-    height: 631px;
     width: 100%;
+    height: 681px;
     display: flex;
     align-items: flex-end;
     flex-shrink: 0;
@@ -151,19 +151,19 @@
     justify-content: flex-end;
     background-color: rgba(234, 239, 243, 1);
   }
-  .iniciodesesiondeusuarios-frame1 {
+  .registrodesesindeusuarios-frame1 {
     gap: 10px;
-    height: 617px;
-    display: flex;
     width: 100%;
+    height: 615px;
+    display: flex;
     align-items: flex-start;
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-hero-form {
+  .registrodesesindeusuarios-hero-form {
     gap: 32px;
     width: 100%;
-    height: 612px;
+    height: 548px;
     display: flex;
     padding: 0 24px;
     align-items: center;
@@ -172,105 +172,231 @@
     justify-content: center;
     background-color: rgba(234, 239, 243, 1);
   }
-  .iniciodesesiondeusuarios-text-content-title {
+  .registrodesesindeusuarios-text-content-title {
     gap: 8px;
-    height: 79px;
+    height: 125px;
     display: flex;
     align-items: center;
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-text19 {
+  .registrodesesindeusuarios-text19 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     align-self: stretch;
     text-align: center;
     line-height: 120.00000476837158%;
   }
-  .iniciodesesiondeusuarios-form-register {
-    gap: 24px;
-    width: 320px;
-    display: flex;
-    padding: 24px;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-radius: 8px;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .iniciodesesiondeusuarios-input-field1 {
-    gap: 8px;
-    display: flex;
-    align-self: stretch;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .iniciodesesiondeusuarios-text21 {
-    color: rgba(2, 16, 89, 1);
-    height: auto;
-    align-self: stretch;
-    text-align: left;
-    line-height: 139.9999976158142%;
-  }
-  .iniciodesesiondeusuarios-input1 {
+  .registrodesesindeusuarios-text21 {
     color: rgba(119, 185, 243, 1);
-    display: flex;
-    padding: 12px 16px;
-    overflow: hidden;
-    font-size: 16px;
-    align-self: stretch;
-    text-align: left;
-    align-items: center;
-    flex-shrink: 0;
-    font-family: Inter;
-    font-weight: 400;
-    border-radius: 8px;
-    background-color: rgba(208, 242, 209, 1);
-  }
-  .iniciodesesiondeusuarios-input-field2 {
-    gap: 8px;
-    display: flex;
-    align-self: stretch;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .iniciodesesiondeusuarios-text23 {
-    color: rgba(2, 16, 89, 1);
-    height: auto;
-    align-self: stretch;
-    text-align: left;
-    line-height: 139.9999976158142%;
-  }
-  .iniciodesesiondeusuarios-input2 {
-    color: rgba(119, 185, 243, 1);
-    display: flex;
-    padding: 12px 16px;
-    overflow: hidden;
-    font-size: 16px;
-    align-self: stretch;
-    text-align: left;
-    align-items: center;
-    flex-shrink: 0;
-    font-family: Inter;
-    font-weight: 400;
-    border-radius: 8px;
-    background-color: rgba(208, 242, 209, 1);
-  }
-  .iniciodesesiondeusuarios-text25 {
-    color: rgba(2, 16, 89, 1);
     height: auto;
     align-self: stretch;
     text-align: center;
+    line-height: 120.00000476837158%;
+  }
+  .registrodesesindeusuarios-form-register {
+
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .registrodesesindeusuarios-input-field1 {
+    gap: 8px;
+    width: 272px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .registrodesesindeusuarios-text23 {
+    color: rgba(2, 16, 89, 1);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-button-group {
-    gap: 16px;
+  .registrodesesindeusuarios-input1 {
+    color: rgba(119, 185, 243, 1);
+    display: flex;
+    padding: 12px 16px;
+    overflow: hidden;
+    font-size: 16px;
+    align-self: stretch;
+    text-align: left;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: rgba(208, 242, 209, 1);
+  }
+  .registrodesesindeusuarios-input-field2 {
+    gap: 8px;
+    width: 272px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .registrodesesindeusuarios-text25 {
+    color: rgba(2, 16, 89, 1);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-input2 {
+    color: rgba(119, 185, 243, 1);
+    display: flex;
+    padding: 12px 16px;
+    overflow: hidden;
+    font-size: 16px;
+    align-self: stretch;
+    text-align: left;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: rgba(208, 242, 209, 1);
+  }
+  .registrodesesindeusuarios-input-field3 {
+    gap: 8px;
+    width: 272px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .registrodesesindeusuarios-text27 {
+    color: rgba(2, 16, 89, 1);
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-input3 {
+    color: rgba(119, 185, 243, 1);
+    display: flex;
+    padding: 12px 16px;
+    overflow: hidden;
+    font-size: 16px;
+    align-self: stretch;
+    text-align: left;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: rgba(208, 242, 209, 1);
+  }
+  .registrodesesindeusuarios-checkbox-field1 {
+    width: 272px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .registrodesesindeusuarios-checkboxand-label1 {
+    gap: 12px;
     display: flex;
     align-self: stretch;
     align-items: center;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-button3 {
+  .registrodesesindeusuarios-checkbox1 {
+    gap: 10px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(2, 16, 89, 1);
+  }
+  .registrodesesindeusuarios-check1 {
+    width: 16px;
+    height: 16px;
+  }
+  .registrodesesindeusuarios-text29 {
+    color: rgba(2, 16, 89, 1);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-checkbox-field2 {
+    width: 272px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .registrodesesindeusuarios-checkboxand-label2 {
+    gap: 12px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-checkbox2 {
+    gap: 10px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(2, 16, 89, 1);
+  }
+  .registrodesesindeusuarios-check2 {
+    width: 16px;
+    height: 16px;
+  }
+  .registrodesesindeusuarios-text31 {
+    color: rgba(2, 16, 89, 1);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-description-row {
+    gap: 12px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-space {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text33 {
+    color: rgba(119, 185, 243, 1);
+    height: auto;
+    flex-grow: 1;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-button-group {
+    gap: 16px;
+    width: 272px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-button3 {
     gap: 8px;
     display: flex;
     padding: 12px;
@@ -282,26 +408,27 @@
     background-color: rgba(119, 185, 243, 1);
     margin-left: 33%;
   }
-  .iniciodesesiondeusuarios-text27 {
+  .registrodesesindeusuarios-text34 {
     color: rgba(2, 16, 89, 1);
     height: auto;
     text-align: left;
     line-height: 100%;
   }
-  .iniciodesesiondeusuarios-group2 {
+  .registrodesesindeusuarios-group2 {
     width: 100%;
-    height: 247px;
+    height: 225px;
     display: flex;
     position: relative;
+    align-self: stretch;
     align-items: flex-start;
     flex-shrink: 1;
   }
-  .iniciodesesiondeusuarios-card-grid-reviews1 {
+  .registrodesesindeusuarios-card-grid-reviews {
     gap: 48px;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 247px;
+    height: 225px;
     display: flex;
     padding: 64px;
     position: absolute;
@@ -310,21 +437,11 @@
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-card-grid-reviews2 {
-    gap: 48px;
-    top: 0px;
-    left: 0px;
-    width: 1200px;
-    height: 247px;
+  .registrodesesindeusuarios-text-heading {
     display: flex;
-    padding: 64px;
-    position: absolute;
-    background: linear-gradient(180deg, rgba(234, 239, 243, 1) 5%, rgba(212, 213, 231, 1) 34%, rgba(68, 70, 170, 1) 68%, rgba(45, 47, 140, 1) 74%, rgba(2, 16, 89, 1) 96%);
     align-items: flex-start;
-    flex-shrink: 0;
-    flex-direction: column;
   }
-  .iniciodesesiondeusuarios-footer {
+  .registrodesesindeusuarios-footer {
     gap: 16px;
     width: 1200px;
     display: flex;
@@ -338,7 +455,7 @@
     border-width: 1px 0 0;
     background-color: rgba(2, 16, 89, 1);
   }
-  .iniciodesesiondeusuarios-title1 {
+  .registrodesesindeusuarios-title1 {
     gap: 24px;
     width: 262px;
     height: 157px;
@@ -347,39 +464,39 @@
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-image2112 {
+  .registrodesesindeusuarios-image2112 {
     width: 127px;
     height: 52px;
   }
-  .iniciodesesiondeusuarios-text29 {
+  .registrodesesindeusuarios-text36 {
     color: rgba(115, 233, 30, 1);
     width: 149px;
     height: auto;
     text-align: center;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-button-list {
+  .registrodesesindeusuarios-button-list {
     gap: 16px;
     display: flex;
     align-items: center;
   }
-  .iniciodesesiondeusuarios-x-logo {
+  .registrodesesindeusuarios-x-logo {
     width: 24px;
     height: 24px;
   }
-  .iniciodesesiondeusuarios-logo-instagram {
+  .registrodesesindeusuarios-logo-instagram {
     width: 24px;
     height: 24px;
   }
-  .iniciodesesiondeusuarios-logo-you-tube {
+  .registrodesesindeusuarios-logo-you-tube {
     width: 24px;
     height: 24px;
   }
-  .iniciodesesiondeusuarios-linked-in {
+  .registrodesesindeusuarios-linked-in {
     width: 24px;
     height: 24px;
   }
-  .iniciodesesiondeusuarios-text-link-list1 {
+  .registrodesesindeusuarios-text-link-list1 {
     gap: 12px;
     width: 262px;
     display: flex;
@@ -387,7 +504,7 @@
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-title2 {
+  .registrodesesindeusuarios-title2 {
     gap: 10px;
     display: flex;
     padding: 0 0 16px;
@@ -395,19 +512,19 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-text-strong1 {
+  .registrodesesindeusuarios-text-strong1 {
     display: flex;
     align-self: stretch;
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text31 {
+  .registrodesesindeusuarios-text38 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item10 {
+  .registrodesesindeusuarios-text-link-list-item10 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -415,33 +532,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text33 {
-    top: -14px;
-    left: -2px;
-    color: rgba(115, 233, 30, 1);
-    height: auto;
-    position: absolute;
-    text-align: left;
-    line-height: 139.9999976158142%;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item11 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text35 {
-    top: 16px;
-    left: -3px;
+  .registrodesesindeusuarios-text40 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item12 {
+  .registrodesesindeusuarios-text-link-list-item11 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -449,16 +547,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text37 {
-    left: -1px;
+  .registrodesesindeusuarios-text42 {
     color: rgba(115, 233, 30, 1);
-    bottom: -90px;
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item13 {
+  .registrodesesindeusuarios-text-link-list-item12 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -466,7 +562,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text-link-list-item14 {
+  .registrodesesindeusuarios-text44 {
+    color: rgba(115, 233, 30, 1);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-text-link-list-item13 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -474,7 +577,7 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text-link-list-item15 {
+  .registrodesesindeusuarios-text-link-list-item14 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -482,7 +585,7 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text-link-list-item16 {
+  .registrodesesindeusuarios-text-link-list-item15 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -490,7 +593,15 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text-link-list2 {
+  .registrodesesindeusuarios-text-link-list-item16 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text-link-list2 {
     gap: 12px;
     width: 262px;
     display: flex;
@@ -498,7 +609,7 @@
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-title3 {
+  .registrodesesindeusuarios-title3 {
     gap: 10px;
     display: flex;
     padding: 0 0 16px;
@@ -506,19 +617,19 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-text-strong2 {
+  .registrodesesindeusuarios-text-strong2 {
     display: flex;
     align-self: stretch;
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text39 {
+  .registrodesesindeusuarios-text46 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item17 {
+  .registrodesesindeusuarios-text-link-list-item17 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -526,78 +637,76 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text41 {
-    color: rgba(115, 233, 30, 1);
-    height: auto;
-    position: absolute;
-    text-align: left;
-    line-height: 139.9999976158142%;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item18 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text43 {
-    left: 0px;
-    color: rgba(115, 233, 30, 1);
-    bottom: -48px;
-    height: auto;
-    position: absolute;
-    text-align: left;
-    line-height: 139.9999976158142%;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item19 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item20 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item21 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item22 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text-link-list-item23 {
-    width: 89px;
-    height: 22px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .iniciodesesiondeusuarios-text45 {
+  .registrodesesindeusuarios-text48 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list3 {
+  .registrodesesindeusuarios-text-link-list-item18 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text50 {
+    color: rgba(115, 233, 30, 1);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-text-link-list-item19 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text-link-list-item20 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text-link-list-item21 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text-link-list-item22 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text-link-list-item23 {
+    width: 89px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .registrodesesindeusuarios-text52 {
+    color: rgba(115, 233, 30, 1);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: 139.9999976158142%;
+  }
+  .registrodesesindeusuarios-text-link-list3 {
     gap: 12px;
     width: 262px;
     display: flex;
@@ -605,7 +714,7 @@
     flex-shrink: 0;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-title4 {
+  .registrodesesindeusuarios-title4 {
     gap: 10px;
     display: flex;
     padding: 0 0 16px;
@@ -613,19 +722,19 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .iniciodesesiondeusuarios-text-strong3 {
+  .registrodesesindeusuarios-text-strong3 {
     display: flex;
     align-self: stretch;
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text46 {
+  .registrodesesindeusuarios-text53 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item24 {
+  .registrodesesindeusuarios-text-link-list-item24 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -633,14 +742,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text48 {
+  .registrodesesindeusuarios-text55 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item25 {
+  .registrodesesindeusuarios-text-link-list-item25 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -648,16 +757,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text50 {
-    left: 0px;
+  .registrodesesindeusuarios-text57 {
     color: rgba(115, 233, 30, 1);
-    bottom: -48px;
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item26 {
+  .registrodesesindeusuarios-text-link-list-item26 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -665,16 +772,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text52 {
-    left: -1px;
+  .registrodesesindeusuarios-text59 {
     color: rgba(115, 233, 30, 1);
-    bottom: -78px;
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item27 {
+  .registrodesesindeusuarios-text-link-list-item27 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -682,14 +787,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text54 {
+  .registrodesesindeusuarios-text61 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item28 {
+  .registrodesesindeusuarios-text-link-list-item28 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -697,14 +802,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text55 {
+  .registrodesesindeusuarios-text62 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item29 {
+  .registrodesesindeusuarios-text-link-list-item29 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -712,14 +817,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text56 {
+  .registrodesesindeusuarios-text63 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-  .iniciodesesiondeusuarios-text-link-list-item30 {
+  .registrodesesindeusuarios-text-link-list-item30 {
     width: 89px;
     height: 22px;
     display: flex;
@@ -727,19 +832,14 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
-  .iniciodesesiondeusuarios-text57 {
+  .registrodesesindeusuarios-text64 {
     color: rgba(115, 233, 30, 1);
     height: auto;
     position: absolute;
     text-align: left;
     line-height: 139.9999976158142%;
   }
-
-
-
-
-
-
+  
   /* Estilos de header */
 
   .index-header {
