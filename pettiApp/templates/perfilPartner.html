@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>Perfil usuario</title>
+    <title>Perfil partner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -91,21 +91,24 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
   </head>
   <body>
-    <link rel="stylesheet" href="{% static 'css/perfilUsuarioStyle.css' %}" />
-
+    <link rel="stylesheet" href="{% static 'css/perfilPartner.css' %}" />
+    <link rel="stylesheet" href="./style.css" />
     <div>
-        <link rel="stylesheet" href="{% static 'css/perfilUsuario.css' %}" />
+      <link href="./index.css" rel="stylesheet" />
 
+      <div class="perfildepartner-container">
+        <div class="perfildepartner-perfildepartner">
+          <div class="perfildepartner-frame3">
 
-      <div class="perfildeusuario-container">
-        <div class="perfildeusuario-perfildeusuario">
-          <div class="perfildeusuario-frame3">
-
-            
             <div class="index-header">
                 <img
                   src="{% static 'images/logo1.png' %}"
@@ -141,223 +144,267 @@
                   </button>
                 </div>
               </div>
-              
 
 
-
-              
-
-
-
-
-            <div class="perfildeusuario-frame12">
-              <div class="perfildeusuario-footer1">
-                <div class="perfildeusuario-group11">
-                    <img
-                      src="{% static 'images/soniaNavarro.png' %}"
-                      alt="Imagen de perfil"
-                      class="perfildeusuario-image1"
-                    />
-                  <button class="perfildeusuario-button12">
-                    <span class="perfildeusuario-text20 SingleLineBodyBase">
-                      <span>Actualizar imagen</span>
-                    </span>
-                  </button>
-                  <button class="perfildeusuario-button13">
-                    <span class="perfildeusuario-text22 SingleLineBodyBase">
-                      <span>Editar email</span>
-                    </span>
-                  </button>
-                  <div class="perfildeusuario-text-content-heading1">
-                    <span class="perfildeusuario-text24 TitlePage">
-                      <span>Mi perfil</span>
-                    </span>
-                    <span class="perfildeusuario-text26 Subheading">
-                      <span>
-                        Edita tu perfil, modo de pago, información de contacto
-                      </span>
-                    </span>
-                  </div>
-                  <div class="perfildeusuario-input-field1">
-                    <span class="perfildeusuario-text28 BodyBase">
-                      <span>Nombre</span>
-                    </span>
-                    <input
-                      type="text"
-                      placeholder="Nombre"
-                      class="perfildeusuario-input1"
-                    />
-                  </div>
-                  <div class="perfildeusuario-input-field2">
-                    <span class="perfildeusuario-text30 BodyBase">
-                      <span>Dirección</span>
-                    </span>
-                    <input
-                      type="text"
-                      placeholder="Calle 122 Villa Ciudad"
-                      class="perfildeusuario-input2"
-                    />
-                  </div>
-                  <div class="perfildeusuario-input-field3">
-                    <span class="perfildeusuario-text32 BodyBase">
-                      <span>Email</span>
-                    </span>
-                    <input
-                      type="text"
-                      placeholder="sonianavarro@gmail.com"
-                      class="perfildeusuario-input3"
-                    />
-                  </div>
-                  <button class="perfildeusuario-button14">
-                    <span class="perfildeusuario-text34 SingleLineBodyBase">
-                      <span>Editar teléfono</span>
-                    </span>
-                  </button>
-                  <button class="perfildeusuario-button15">
-                    <span class="perfildeusuario-text36 SingleLineBodyBase">
-                      <span>Agregar método de pago</span>
-                    </span>
-                  </button>
-                  <button class="perfildeusuario-button16">
-                    <span class="perfildeusuario-text38 SingleLineBodyBase">
-                      <span>Guardar cambios</span>
-                    </span>
-                  </button>
-                  <div class="perfildeusuario-input-field4">
-                    <span class="perfildeusuario-text40 BodyBase">
-                      <span>Teléfono</span>
-                    </span>
-                    <input
-                      type="text"
-                      placeholder="+56 9 5423 3453"
-                      class="perfildeusuario-input4"
-                    />
-                  </div>
-                  <div class="perfildeusuario-group4">
-                    <div class="perfildeusuario-text-content-flow">
-                      <div class="perfildeusuario-text-content-heading2">
-                        <span class="perfildeusuario-text42 Heading">
-                          <span>Perfil de Sonia Navarro</span>
-                        </span>
-                        <span class="perfildeusuario-text44 Subheading">
-                          <span>Así te verán los partners de Petti:</span>
-                        </span>
-                      </div>
-                      <div class="perfildeusuario-text46">
-                        <span class="perfildeusuario-text47 BodyBase">
-                          <span>Descripción:</span>
-                        </span>
-                      </div>
-                    </div>
-                    <input
-                      type="text"
-                      placeholder="Descripción de ejemplo"
-                      class="perfildeusuario-input5"
-                    />
-                  </div>
-                  <span class="perfildeusuario-text49 Heading">
-                    <span>Métodos de pago</span>
-                  </span>
-                  <div class="perfildeusuario-input-field5">
-                    <span class="perfildeusuario-text51 BodyBase">
-                      <span>Password</span>
-                    </span>
-                    <input
-                      type="text"
-                      placeholder="***********"
-                      class="perfildeusuario-input6"
-                    />
-                  </div>
-                  <div class="perfildeusuario-input-field6">
-                    <span class="perfildeusuario-text53 BodyBase">
-                      <span>Apellido</span>
-                    </span>
-                    <input
-                      type="text"
-                      placeholder="Apellido"
-                      class="perfildeusuario-input7"
-                    />
-                  </div>
-                  <div class="perfildeusuario-group5">
-                    <img
-                      src="{% static 'images/mastercard.png' %}"
-                      alt="Imagen de método de pago"
-                      class="perfildeusuario-image2"
-                    />
-                    <button class="perfildeusuario-button17">
-                      <span class="perfildeusuario-text55 SingleLineBodyBase">
-                        <span>Eliminar método de pago</span>
-                      </span>
-                    </button>
-                    <div class="perfildeusuario-body1">
-                      <div class="perfildeusuario-text57">
-                        <span class="Heading">Mastercard</span>
-                      </div>
-                    </div>
-                    <div class="perfildeusuario-image2"></div>
-                    <span class="perfildeusuario-text59 BodyBase">
-                      <span>Expira el 01/02</span>
-                    </span>
-                  </div>
-                  <div class="perfildeusuario-group6">
-                    <img
-                      src="{% static 'images/mastercard.png' %}"
-                      alt="Imagen de método de pago"
-                      class="perfildeusuario-image2"
-                    />
-                    <button class="perfildeusuario-button18">
-                      <span class="perfildeusuario-text61 SingleLineBodyBase">
-                        <span>Eliminar método de pago</span>
-                      </span>
-                    </button>
-                    <div class="perfildeusuario-body2">
-                      <div class="perfildeusuario-text63">
-                        <span class="Heading">Mastercard&nbsp;</span>
-                      </div>
-                    </div>
-                    <div class="perfildeusuario-image3"></div>
-                    
-                    <span class="perfildeusuario-text65 BodyBase">
-                      <span>Expira el 12/11</span>
-                    </span>
-                  </div>
-                  <button class="perfildeusuario-button19">
-                    <span class="perfildeusuario-text67 SingleLineBodyBase">
-                      <span>Editar contraseña</span>
-                    </span>
-                  </button>
-                  <div class="perfildeusuario-select-field">
-                    <span class="perfildeusuario-text69 BodyBase">
-                      <span>País</span>
-                    </span>
-                    <div class="perfildeusuario-select">
-                      <span class="perfildeusuario-text71 SingleLineBodyBase">
-                        <span>Chile</span>
-                      </span>
+              <div class="perfildeusuario-frame12">
+                <div class="perfildeusuario-footer1">
+                  <div class="perfildeusuario-group11">
                       <img
-                        src="public/external/chevrondowni134-rdfp.svg"
-                        alt="ChevrondownI134"
-                        class="perfildeusuario-chevrondown"
+                        src="{% static 'images/soniaNavarro.png' %}"
+                        alt="Imagen de perfil"
+                        class="perfildeusuario-image1"
                       />
+                    <button class="perfildeusuario-button12">
+                      <span class="perfildeusuario-text20 SingleLineBodyBase">
+                        <span>Actualizar imagen</span>
+                      </span>
+                    </button>
+                    <button class="perfildeusuario-button13">
+                      <span class="perfildeusuario-text22 SingleLineBodyBase">
+                        <span>Editar email</span>
+                      </span>
+                    </button>
+                    <div class="perfildeusuario-text-content-heading1">
+                      <span class="perfildeusuario-text24 TitlePage">
+                        <span>Conoce y contrata a nuevos partners</span>
+                      </span>
+                      <span class="perfildeusuario-text26 Subheading">
+                        <span>
+                          Trabajo de calidad y proporcionado por expertos
+                        </span>
+                      </span>
+                    </div>
+                    
+                    
+                    
+                    <div class="perfildeusuario-group4">
+                      <div class="perfildeusuario-text-content-flow">
+                        <div class="perfildeusuario-text-content-heading2">
+                          <span class="perfildeusuario-text42 Heading">
+                            <span>Alejandra Avila</span>
+                          </span>
+                        </div>
+                        <div class="perfildeusuario-text46">
+                          <span class="perfildeusuario-text47 BodyBase">
+                            <span>Descripción:</span>
+                          </span>
+                        </div>
+                      </div>
+                      <input
+                        type="text"
+                        placeholder="Descripción de ejemplo"
+                        class="perfildeusuario-input5"
+                      />
+                    </div>
+                
+                    
+                   
+
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+  
+
+            <div class="index-card-grid-reviews">
+                <div class="index-card-grid">
+                  <div class="index-review-card1">
+                    <div class="index-rating1">
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star10"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star11"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star12"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star13"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star14"
+                      />
+                    </div>
+                    <div class="index-review-body1">
+                      <div class="index-text-heading2">
+                        <span class="index-text45 Heading">
+                          <span>Excelente servicio</span>
+                        </span>
+                      </div>
+                      <div class="index-text47">
+                        <span class="index-text48 BodySmall">
+                          <span>
+                            La peluquería para mi perro fue impecable. Salió
+                            luciendo genial y bien atendido. Sin duda volveré a
+                            utilizar el servicio.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="index-avatar-block1">
+                      <div class="index-avatar1">
+                        <img
+                          src="{% static 'images/user.png' %}"
+                          alt="ShapeI109"
+                          class="index-shape1"
+                        />
+                      </div>
+                      <div class="index-info1">
+                        <span class="index-text50 BodyStrong">
+                          <span>Javier López</span>
+                        </span>
+                        <span class="index-text52 BodySmall">
+                          <span>03/09/2024</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="index-review-card2">
+                    <div class="index-rating2">
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star15"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star16"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star17"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star18"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star19"
+                      />
+                    </div>
+                    <div class="index-review-body2">
+                      <div class="index-text-heading3">
+                        <span class="index-text54 Heading">
+                          <span>Buena experiencia</span>
+                        </span>
+                      </div>
+                      <div class="index-text56">
+                        <span class="index-text57 BodySmall">
+                          <span>
+                            Excelente servicio cuidado. Mi perro estuvo feliz y bien
+                            cuidado durante mi ausencia. ¡Totalmente recomendado,
+                            quede muy contenta!
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="index-avatar-block2">
+                      <div class="index-avatar2">
+                        <img
+                          src="{% static 'images/user.png' %}"
+                          alt="ShapeI109"
+                          class="index-shape2"
+                        />
+                      </div>
+                      <div class="index-info2">
+                        <span class="index-text59 BodyStrong">
+                          <span>Ana Martínez</span>
+                        </span>
+                        <span class="index-text61 BodySmall">
+                          <span>02/09/2024</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="index-review-card3">
+                    <div class="index-rating3">
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star20"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star21"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star22"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star23"
+                      />
+                      <img
+                        src="{% static 'images/star.svg' %}"
+                        alt="StarI109"
+                        class="index-star24"
+                      />
+                    </div>
+                    <div class="index-review-body3">
+                      <div class="index-text-heading4">
+                        <span class="index-text63 Heading">
+                          <span>Paseos de calidad</span>
+                        </span>
+                      </div>
+                      <div class="index-text65">
+                        <span class="index-text66 BodySmall">
+                          <span>
+                            Los paseos para mi perro han sido fantásticos. Los
+                            cuidadores son atentos y profesionales. ¡Muy satisfecho
+                            con el servicio!
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="index-avatar-block3">
+                      <div class="index-avatar3">
+                        <img
+                          src="{% static 'images/user.png' %}"
+                          alt="ShapeI109"
+                          class="index-shape3"
+                        />
+                      </div>
+                      <div class="index-info3">
+                        <span class="index-text68 BodyStrong">
+                          <span>Carlos Gómez</span>
+                        </span>
+                        <span class="index-text70 BodySmall">
+                          <span>09/09/2024</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
-          
 
 
 
 
-
-
-
-
-
-
+            
           <div class="index-footer">
             <div class="index-title1">
               <img
@@ -485,6 +532,8 @@
 
 
 
+            
+          </div>
         </div>
       </div>
     </div>

@@ -5,17 +5,11 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'index.html')
 
-def administracion(request):
-    return render(request, 'administracion.html')
-
 def busqueda_servicios(request):
     return render(request, 'busquedaServicios.html')
 
 def inicio_sesion_admin(request):
     return render(request, 'inicioSesionAdmin.html')
-
-def inicio_sesion_usuario(request):
-    return render(request, 'inicioSesionUsuario.html')
 
 def perfil_usuario(request):
     return render(request, 'perfilUsuario.html')
@@ -31,3 +25,6 @@ def mantenimiento_servicios(request):
 
 def mantenimiento_usuarios(request):
     return render(request, 'mantenimientoUsuarios.html')
+
+def perfil_partner(request):
+    return render(request, 'perfilPartner.html')
