@@ -1952,4 +1952,33 @@
   }
 
 
-  
+  .registrodesesindeusuarios-button4 {
+    gap: 8px;
+    display: flex;
+    padding: 12px;
+    overflow: hidden;
+    flex-grow: 0; 
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: rgba(119, 185, 243, 1);
+    width: 150px; 
+    height: 40px; 
+    margin-left: 20%;
+    text-align: center;
+}
+.registrodesesindeusuarios-button5 {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  overflow: hidden;
+  flex-grow: 0; 
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(143, 180, 212, 0.76);
+  width: 200px; 
+  height: 40px; 
+  margin-left: 10%;
+  text-align: center;
+}

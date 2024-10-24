@@ -25,3 +25,6 @@ def registro_usuarios(request):
 
 def mantenimiento(request):
     return render(request, 'mantenimiento.html')
+
+def mantenimiento_servicios(request):
+    return render(request, 'mantenimientoServicios.html')
