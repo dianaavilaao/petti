@@ -28,3 +28,6 @@ def mantenimiento(request):
 
 def mantenimiento_servicios(request):
     return render(request, 'mantenimientoServicios.html')
+
+def mantenimiento_usuarios(request):
+    return render(request, 'mantenimientoUsuarios.html')

@@ -17,4 +17,5 @@ urlpatterns = [
     path('registro-usuarios/', views.registro_usuarios, name='registro_usuarios'),  
     path('mantenimiento/', views.mantenimiento, name='mantenimiento'),
     path('mantenimiento-servicios/', views.mantenimiento_servicios, name='mantenimiento_servicios'),
+    path('mantenimiento-usuarios/', views.mantenimiento_usuarios, name='mantenimiento_usuarios'),
 ]
