@@ -1,0 +1,322 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Registro de usuarios Petti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+
+    <link rel="stylesheet" href="{% static 'css/mantenimiento.css' %}" />
+
+    <div>
+
+      <div class="registrodesesindeusuarios-container">
+        <div class="registrodesesindeusuarios-registrodesesindeusuarios">
+
+            <div class="index-header">
+                <img
+                  src="{% static 'images/logo1.png' %}"
+                  alt="IMAGE2111261"
+                  class="index-image2111"
+                />
+                <div class="index-navigation-pill-list">
+                  <div class="index-navigation-pill1"></div>
+                  <div class="index-navigation-pill2"></div>
+                  <div class="index-navigation-pill3">
+                    <span class="index-text10 SingleLineBodyBase">
+                      <span>Partners</span>
+                    </span>
+                  </div>
+                  <div class="index-navigation-pill4">
+                    <span class="index-text12 SingleLineBodyBase">
+                      <span>Nuestros servicios</span>
+                    </span>
+                  </div>
+                  <div class="index-navigation-pill5">
+                    <span class="index-text14 SingleLineBodyBase"></span>
+                  </div>
+                </div>
+                <div class="index-header-auth">
+                  <a href="{% url 'pettiApp:login' %}" class="index-button1"> Iniciar sesión </a>
+                  <button class="index-button2">
+                    <span class="SingleLineBodyBase">Registrate</span>
+                  </button>
+                </div>
+              </div>
+
+
+
+
+
+
+          <div class="registrodesesindeusuarios-frame2">
+            <div class="registrodesesindeusuarios-frame1">
+              <div class="registrodesesindeusuarios-hero-form">
+                <div class="registrodesesindeusuarios-text-content-title">
+                  <span class="registrodesesindeusuarios-text19 TitleHero">
+                    <span>Mantenimiento</span>
+                  </span>
+                  <span class="registrodesesindeusuarios-text21 Subtitle">
+                    <span>
+                      Elige el listado que deseas editar
+                    </span>
+                  </span>
+                </div>
+                <div class="registrodesesindeusuarios-form-register">
+
+
+                  
+                  
+                  <button class="registrodesesindeusuarios-button3">
+                    <span
+                      class="registrodesesindeusuarios-text34 SingleLineBodyBase"
+                    >
+                      <span>Usuarios</span>
+                    </span>
+                  </button>
+                  <button class="registrodesesindeusuarios-button3">
+                    <span
+                      class="registrodesesindeusuarios-text34 SingleLineBodyBase"
+                    >
+                      <span>Servicios contratados</span>
+                    </span>
+                  </button>
+                  <button class="registrodesesindeusuarios-button3">
+                    <span
+                      class="registrodesesindeusuarios-text34 SingleLineBodyBase"
+                    >
+                      <span>Emails masivos</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="registrodesesindeusuarios-group2">
+            <div class="registrodesesindeusuarios-card-grid-reviews">
+              <div class="registrodesesindeusuarios-text-heading"></div>
+            </div>
+          </div>
+
+
+
+          <div class="index-footer">
+            <div class="index-title1">
+              <img
+                src="{% static 'images/logo2.png' %}"
+                alt="IMAGE2111261"
+                class="index-image2112"
+              />
+              <span class="index-text72 BodyStrong">
+                <span>Nuestras redes</span>
+              </span>
+              <button class="index-button-list">
+                <img
+                  src="{% static 'images/logox.svg' %}"
+                  alt="XLogo1261"
+                  class="index-x-logo"
+                />
+                <img
+                  src="{% static 'images/logoinstagram.svg' %}"
+                  alt="LogoInstagram1261"
+                  class="index-logo-instagram"
+                />
+                <img
+                  src="{% static 'images/logoyoutube.svg' %}"
+                  alt="LogoYouTube1261"
+                  class="index-logo-you-tube"
+                />
+                <img
+                  src="{% static 'images/logolinkedin.svg' %}"
+                  alt="LinkedIn1261"
+                  class="index-linked-in"
+                />
+              </button>
+            </div>
+            <div class="index-text-link-list1">
+              <div class="index-title2">
+                <div class="index-text-strong1">
+                  <span class="index-text74 BodyStrong">
+                    <span>Contacto</span>
+                  </span>
+                </div>
+              </div>
+              <div class="index-text-link-list-item10">
+                <span class="index-text76 BodyLink">
+                  <span>Mail: petti@gmail.com</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item11">
+                <span class="index-text78 BodyLink">
+                  <span>Whatsapp: +999 99999999</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item12">
+                <span class="index-text80 BodyLink">
+                  <span>Fono: +999 99999999</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item13"></div>
+              <div class="index-text-link-list-item14"></div>
+              <div class="index-text-link-list-item15"></div>
+              <div class="index-text-link-list-item16"></div>
+            </div>
+            <div class="index-text-link-list2">
+              <div class="index-title3">
+                <div class="index-text-strong2">
+                  <span class="index-text82 BodyStrong">
+                    <span>Petti</span>
+                  </span>
+                </div>
+              </div>
+              <div class="index-text-link-list-item17">
+                <span class="index-text84 BodyLink">
+                  <span>Acerca de Petti</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item18">
+                <span class="index-text86 BodyLink">
+                  <span>Trabaja con nosotros</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item19"></div>
+              <div class="index-text-link-list-item20"></div>
+              <div class="index-text-link-list-item21"></div>
+              <div class="index-text-link-list-item22"></div>
+              <div class="index-text-link-list-item23">
+                <span class="index-text88 BodyBase"></span>
+              </div>
+            </div>
+            <div class="index-text-link-list3">
+              <div class="index-title4">
+                <div class="index-text-strong3">
+                  <span class="index-text89 BodyStrong">
+                    <span>Links de interés</span>
+                  </span>
+                </div>
+              </div>
+              <div class="index-text-link-list-item24">
+                <span class="index-text91 BodyLink">
+                  <span>Términos y condiciones</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item25">
+                <span class="index-text93 BodyLink">
+                  <span>Politica de privacidad</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item26">
+                <span class="index-text95 BodyLink">
+                  <span>Preguntas frecuentes</span>
+                </span>
+              </div>
+              <div class="index-text-link-list-item27">
+                <span class="index-text97 BodyBase"></span>
+              </div>
+              <div class="index-text-link-list-item28">
+                <span class="index-text98 BodyBase"></span>
+              </div>
+              <div class="index-text-link-list-item29">
+                <span class="index-text99 BodyBase"></span>
+              </div>
+              <div class="index-text-link-list-item30">
+                <span class="index-text100 BodyBase"></span>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
