@@ -109,22 +109,29 @@
           <div class="perfildepartner-frame3">
 
             <div class="index-header">
-              <img
-                src="{% static 'images/logo1.png' %}"
-                alt="IMAGE2111261"
-                class="index-image2111"
-              />
+              <a href="{% url 'pettiApp:index' %}">
+                <img
+                    src="{% static 'images/logo1.png' %}"
+                    alt="IMAGE2111261"
+                    class="index-image2111"
+                />
+            </a>
+          
               <div class="index-navigation-pill-list">
                 <div class="index-navigation-pill1"></div>
                 <div class="index-navigation-pill2"></div>
                 <div class="index-navigation-pill3">
-                  <span class="index-text10 SingleLineBodyBase">
-                    <span>Partners</span>
-                  </span>
+                  <div class="index-navigation-pill3">
+                    <span class="index-text10 SingleLineBodyBase">
+                      <a href="{% url 'pettiApp:perfil_partner' %}">Perfil Partner</a>
+                    </span>
+                  </div>
                 </div>
                 <div class="index-navigation-pill4">
                   <span class="index-text12 SingleLineBodyBase">
-                    <span>Nuestros servicios</span>
+                    <span class="index-text12 SingleLineBodyBase">
+                      <a href="{% url 'pettiApp:busqueda_servicios' %}">Nuestros Servicios</a>
+                    </span>
                   </span>
                 </div>
                 <div class="perfildeusuario-navigation-pill5">

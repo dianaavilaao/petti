@@ -99,37 +99,40 @@
       <div class="registrodesesindeusuarios-container">
         <div class="registrodesesindeusuarios-registrodesesindeusuarios">
 
-            <div class="index-header">
+          <div class="index-header">
+            <a href="{% url 'pettiApp:index' %}">
                 <img
-                  src="{% static 'images/logo1.png' %}"
-                  alt="IMAGE2111261"
-                  class="index-image2111"
+                    src="{% static 'images/logo1.png' %}"
+                    alt="IMAGE2111261"
+                    class="index-image2111"
                 />
-                <div class="index-navigation-pill-list">
-                  <div class="index-navigation-pill1"></div>
-                  <div class="index-navigation-pill2"></div>
-                  <div class="index-navigation-pill3">
-                    <span class="index-text10 SingleLineBodyBase">
-                      <span>Partners</span>
-                    </span>
-                  </div>
-                  <div class="index-navigation-pill4">
-                    <span class="index-text12 SingleLineBodyBase">
-                      <span>Nuestros servicios</span>
-                    </span>
-                  </div>
-                  <div class="index-navigation-pill5">
-                    <span class="index-text14 SingleLineBodyBase"></span>
-                  </div>
-                </div>
-                <div class="index-header-auth">
-                  <a href="{% url 'pettiApp:login' %}" class="index-button1"> Iniciar sesión </a>
-                  <button class="index-button2">
-                    <span class="SingleLineBodyBase">Registrate</span>
-                  </button>
-                </div>
+            </a>
+          
+            <div class="index-navigation-pill-list">
+              <div class="index-navigation-pill1"></div>
+              <div class="index-navigation-pill2"></div>
+              <div class="index-navigation-pill3">
+                <span class="index-text10 SingleLineBodyBase">
+                  <a href="{% url 'pettiApp:perfil_partner' %}">Perfil Partner</a>
+                </span>
               </div>
-
+              <div class="index-navigation-pill4">
+                <span class="index-text12 SingleLineBodyBase">
+                  <a href="{% url 'pettiApp:busqueda_servicios' %}">Nuestros Servicios</a>
+                </span>
+              </div>
+              <div class="index-navigation-pill5">
+                <span class="index-text14 SingleLineBodyBase"></span>
+              </div>
+            </div>
+            <div class="index-header-auth">
+              <a href="{% url 'pettiApp:login' %}" class="index-button1"> Iniciar sesión </a>
+              
+              <a href="{% url 'pettiApp:registro_usuarios' %}" class="index-button2">
+                <button>Regístrate</button>
+             </a>
+            </div>
+          </div>
 
 
 
