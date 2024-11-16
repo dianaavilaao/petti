@@ -8,6 +8,7 @@
 <html lang="english">
   <head>
     <title>Partners y contratacion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -169,11 +170,14 @@
                       >
                         <span>Peluquería</span>
                       </span>
-                      <img
+                      <button>
+                        <img
                         src="{% static 'images/equis.svg' %}"
                         alt="XI126"
                         class="partnersycontratacion-x1"
                       />
+                      </button>
+                      
                     </div>
 
                     <!-- Funcionalidad filtrar servicios de cuidado de mascotas-->
@@ -183,11 +187,14 @@
                       >
                         <span>Cuidado</span>
                       </span>
-                      <img
+                      <button>
+                        <img
                         src="{% static 'images/equis.svg' %}"
                         alt="XI126"
                         class="partnersycontratacion-x2"
                       />
+                      </button>
+                      
                     </div>
 
                     <!-- Funcionalidad filtrar servicios de paseos-->
@@ -197,16 +204,21 @@
                       >
                         <span>Paseos</span>
                       </span>
-                      <img
+                      <button>
+                        <img
                         src="{% static 'images/equis.svg' %}"
                         alt="XI126"
                         class="partnersycontratacion-x3"
                       />
+                      </button>
+                      
                     </div>
 
 
                   </div>
                 </div>
+
+                <!-- Filtrar servicio por precio -->
                 <div class="partnersycontratacion-slider-field">
                   <div class="partnersycontratacion-label">
                     <span class="partnersycontratacion-text124 BodyBase">
@@ -221,18 +233,24 @@
                       </span>
                     </div>
                   </div>
-
-                  <!-- Funcionalidad filtrar por precio-->
+                
+                  <!-- Funcionalidad filtrar por precio con range (compacto)-->
                   <div class="partnersycontratacion-slider1">
-                    <div class="partnersycontratacion-block">
-                      <div class="partnersycontratacion-knob-start"></div>
-                      <div class="partnersycontratacion-slider2"></div>
-                      <div class="partnersycontratacion-knob-end"></div>
-                    </div>
+                    <input
+                      type="range"
+                      class="form-range partnersycontratacion-slider2"
+                      min="5000"
+                      max="20000"
+                      step="1000"
+                      value="5000"
+                      id="priceRange"
+                      aria-label="Rango de precio"
+                      style="width: 100%; height: 8px; margin-top: 5px;"
+                    />
                   </div>
-
-
                 </div>
+                
+
 
                 <!-- Funcionalidad filtrar servicios por los diferentes animales-->
                 <div class="partnersycontratacion-section11">
@@ -245,11 +263,7 @@
                     <div class="partnersycontratacion-checkbox-field1">
                       <div class="partnersycontratacion-checkboxand-label1">
                         <div class="partnersycontratacion-checkbox1">
-                          <img
-                            src="{% static 'images/check.svg' %}"
-                            alt="CheckI126"
-                            class="partnersycontratacion-check1"
-                          />
+                          <input type="checkbox" class="registrodesesindeusuarios-check1" />
                         </div>
                         <span class="partnersycontratacion-text132 BodyBase">
                           <span>Todos</span>
@@ -259,11 +273,7 @@
                     <div class="partnersycontratacion-checkbox-field2">
                       <div class="partnersycontratacion-checkboxand-label2">
                         <div class="partnersycontratacion-checkbox2">
-                          <img
-                            src="{% static 'images/check.svg' %}"
-                            alt="CheckI126"
-                            class="partnersycontratacion-check2"
-                          />
+                          <input type="checkbox" class="registrodesesindeusuarios-check2" />
                         </div>
                         <span class="partnersycontratacion-text134 BodyBase">
                           <span>Perros</span>
@@ -273,11 +283,7 @@
                     <div class="partnersycontratacion-checkbox-field3">
                       <div class="partnersycontratacion-checkboxand-label3">
                         <div class="partnersycontratacion-checkbox3">
-                          <img
-                            src="{% static 'images/check.svg' %}"
-                            alt="CheckI126"
-                            class="partnersycontratacion-check3"
-                          />
+                          <input type="checkbox" class="registrodesesindeusuarios-check3" />
                         </div>
                         <span class="partnersycontratacion-text136 BodyBase">
                           <span>Gatos</span>
@@ -287,11 +293,7 @@
                   </div>
                   <div class="partnersycontratacion-checkboxand-label4">
                     <div class="partnersycontratacion-checkbox4">
-                      <img
-                        src="{% static 'images/check.svg' %}"
-                        alt="Check2222"
-                        class="partnersycontratacion-check4"
-                      />
+                      <input type="checkbox" class="registrodesesindeusuarios-check4" />
                     </div>
                     <span class="partnersycontratacion-text138 BodyBase">
                       <span>Roedores</span>
@@ -299,11 +301,7 @@
                   </div>
                   <div class="partnersycontratacion-checkboxand-label5">
                     <div class="partnersycontratacion-checkbox5">
-                      <img
-                        src="{% static 'images/check.svg' %}"
-                        alt="Check2222"
-                        class="partnersycontratacion-check5"
-                      />
+                      <input type="checkbox" class="registrodesesindeusuarios-check5" />
                     </div>
                     <span class="partnersycontratacion-text140 BodyBase">
                       <span>Pájaros</span>
@@ -311,17 +309,14 @@
                   </div>
                   <div class="partnersycontratacion-checkboxand-label6">
                     <div class="partnersycontratacion-checkbox6">
-                      <img
-                        src="{% static 'images/check.svg' %}"
-                        alt="Check2222"
-                        class="partnersycontratacion-check6"
-                      />
+                      <input type="checkbox" class="registrodesesindeusuarios-check6" />
                     </div>
                     <span class="partnersycontratacion-text142 BodyBase">
                       <span>Otros</span>
                     </span>
                   </div>
                 </div>
+                
 
 
 
@@ -329,64 +324,83 @@
               </div>
               <div class="partnersycontratacion-section-product-grid">
                 <div class="partnersycontratacion-filter-bar">
+
+                  <!-- Input Funcionalidad buscar servicios (texto-lupa) -->
                   <div class="partnersycontratacion-search-filter">
-
-                    <!-- **CAMBIAR** -->
-
-                    <!-- Input Funcionalidad buscar servicios(texto-lupa)-->
-
                     <div class="partnersycontratacion-search1">
-                      <span
-                        class="partnersycontratacion-text144 SingleLineBodyBase"
-                      >
-                        <span>Buscar</span>
-                      </span>
-                      <img
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Buscar"
+                        aria-label="Buscar servicios"
+                      />
+                      <button>
+                        <img
                         src="{% static 'images/lupa.svg' %}"
-                        alt="SearchI126"
+                        alt="Buscar"
                         class="partnersycontratacion-search2"
                       />
+                      </button>
+                      
                     </div>
-
-
                   </div>
 
-                  <div class="partnersycontratacion-tag-toggle-group">
 
-                    <!-- Boton funcionalidad filtrar por precio descendente-->
-                    <div class="partnersycontratacion-tag-toggle1">
+                  <!-- Ordenar por ascendente,descendente, calificacion -->
+                  <div class="partnersycontratacion-tag-toggle-group btn-group" role="group" aria-label="Filtros">
+                    <!-- Botón Precio descendente -->
+                    <button
+                      type="button"
+                      class="partnersycontratacion-tag-toggle1 btn active"
+                      
+                    >
                       <img
                         src="{% static 'images/check.svg' %}"
-                        alt="CheckI126"
+                        alt="Check"
                         class="partnersycontratacion-check7"
                       />
-                      <span
-                        class="partnersycontratacion-text146 SingleLineBodyBase"
-                      >
+                      <span class="partnersycontratacion-text146 SingleLineBodyBase">
                         <span>Precio descendente</span>
                       </span>
-                    </div>
-
-                    <!-- Boton funcionalidad filtrar por precio ascendente-->
-                    <div class="partnersycontratacion-tag-toggle2">
-                      <span
-                        class="partnersycontratacion-text148 SingleLineBodyBase"
-                      >
+                    </button>
+                  
+                    <!-- Botón Precio ascendente -->
+                    <button
+                      type="button"
+                      class="partnersycontratacion-tag-toggle2 btn"
+                     
+                    >
+                      <img
+                        src="{% static 'images/check.svg' %}"
+                        alt="Check"
+                        class="partnersycontratacion-check7 d-none"
+                      />
+                      <span class="partnersycontratacion-text148 SingleLineBodyBase">
                         <span>Precio ascendente</span>
                       </span>
-                    </div>
-
-                    <!-- Boton funcionalidad filtrar por calificacion del servicio-->
-                    <div class="partnersycontratacion-tag-toggle3">
-                      <span
-                        class="partnersycontratacion-text150 SingleLineBodyBase"
-                      >
+                    </button>
+                  
+                    <!-- Botón Calificación -->
+                    <button
+                      type="button"
+                      class="partnersycontratacion-tag-toggle3 btn"
+                      
+                    >
+                      <img
+                        src="{% static 'images/check.svg' %}"
+                        alt="Check"
+                        class="partnersycontratacion-check7 d-none"
+                      />
+                      <span class="partnersycontratacion-text150 SingleLineBodyBase">
                         <span>Calificación</span>
                       </span>
-                    </div>
-
-
+                    </button>
                   </div>
+                  
+                  
+
+
+                  
                 </div>
                 <div class="partnersycontratacion-card-grid1">
                   <div class="partnersycontratacion-product-info-card1">
