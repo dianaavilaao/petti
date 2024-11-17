@@ -1,7 +1,11 @@
-from django.http import HttpResponse
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
+from django.contrib.auth import login, authenticate
+from django.shortcuts import render
+from django.urls import reverse
+from pettiApp import forms
 
-# Create your views here.
+
 def index(request):
     return render(request, 'index.html')
 
@@ -16,6 +20,42 @@ def perfil_usuario(request):
 
 def registro_usuarios(request):
     return render(request, 'registroUsuarios.html')
+
+def signup(request):
+    if request.method == 'GET':
+        form = forms.SignupForm()
+        context = {
+            'form': form
+        }
+        return render(request, 'signup.html', context)
+    elif request.method == 'POST':
+        print('data:')
+        print(request.POST)
+        form = forms.SignupForm(request.POST)
+        if form.is_valid():
+            print('form is valid')
+            cleaned_data = form.cleaned_data
+            print('cleaned data:')
+            print(cleaned_data)
+            user = form.save()
+            print('user:', user)
+            email = form.cleaned_data.get('email')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(
+                username=email,
+                password=raw_password
+            )
+            login(request, user)
+            return HttpResponseRedirect(reverse('pettiApp:index'))
+        else:
+            print('form is invalid')
+            print(form.errors)
+        context = {
+            'form': form
+        }
+        return render(request, 'signup.html', context)
+    else:
+        raise Exception('Invalid request method')
 
 def mantenimiento(request):
     return render(request, 'mantenimiento.html')

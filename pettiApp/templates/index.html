@@ -194,7 +194,16 @@
                     class="index-image2111"
                 />
             </a>
-          
+            
+            <span style="color: white">
+              usuario:
+              {% if user.is_authenticated %}
+                {{ user.email }}
+              {% else %}
+                Anónimo
+              {% endif %}
+            </span>
+
             <div class="index-navigation-pill-list">
               <div class="index-navigation-pill1"></div>
               <div class="index-navigation-pill2"></div>
