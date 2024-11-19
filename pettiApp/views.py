@@ -27,7 +27,7 @@ def signup(request):
         context = {
             'form': form
         }
-        return render(request, 'signup.html', context)
+        return render(request, 'registroUsuarios.html', context)
     elif request.method == 'POST':
         print('data:')
         print(request.POST)
@@ -53,7 +53,7 @@ def signup(request):
         context = {
             'form': form
         }
-        return render(request, 'signup.html', context)
+        return render(request, 'registroUsuarios.html', context)
     else:
         raise Exception('Invalid request method')
 
@@ -68,3 +68,4 @@ def mantenimiento_usuarios(request):
 
 def perfil_partner(request):
     return render(request, 'perfilPartner.html')
+ 
