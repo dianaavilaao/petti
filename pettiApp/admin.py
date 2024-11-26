@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django import forms
-from .models import *
+from .models import User, Service
 
 class UserCreationForm(forms.ModelForm):
     class Meta:
@@ -15,16 +15,17 @@ class UserCreationForm(forms.ModelForm):
             user.save()
         return user
 
+class ServiceInline(admin.TabularInline):
+    model = Service
+    extra = 1
 
 class CustomUserAdmin(UserAdmin):
     add_form = UserCreationForm
     list_display = ("email",)
     ordering = ("date_joined",)
-
     fieldsets = (
         (None, {'fields': ('email', 'username', 'password', 'first_name', 'last_name')}),
-        )
-    
+    )
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
@@ -32,8 +33,8 @@ class CustomUserAdmin(UserAdmin):
                        'is_staff', 'is_active')}
          ),
     )
-
     filter_horizontal = ()
-
+    inlines = [ServiceInline]
 
 admin.site.register(User, CustomUserAdmin)
+admin.site.register(Service)
