@@ -3,14 +3,19 @@ from django.shortcuts import render
 from django.contrib.auth import login, authenticate
 from django.shortcuts import render
 from django.urls import reverse
-from pettiApp import forms
+from pettiApp import forms, models
 
 
 def index(request):
     return render(request, 'index.html')
 
 def busqueda_servicios(request):
-    return render(request, 'busquedaServicios.html')
+    partners = models.User.objects.filter(is_partner=True)
+    print('partners:', partners)
+    context = {
+        'partners': partners,
+    }
+    return render(request, 'busquedaServicios.html', context)
 
 def inicio_sesion_admin(request):
     return render(request, 'inicioSesionAdmin.html')

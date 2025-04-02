@@ -1,20 +1,97 @@
 {% load static %}
 
-
 <!-- En este HTML hay que cambiar los elementos comentados para que sean indicados para la respectiva funcionalidad-->
-
 
 <!DOCTYPE html>
 <html lang="english">
   <head>
     <title>Partners y contratacion</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -24,7 +101,7 @@
 
       body {
         font-weight: 400;
-        font-style:normal;
+        font-style: normal;
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
@@ -97,33 +174,35 @@
   <body>
     <link rel="stylesheet" href="{% static 'css/busqServiciosStyle.css' %}" />
     <div>
-
       <link rel="stylesheet" href="{% static 'css/busqServicios.css' %}" />
 
       <div class="partnersycontratacion-container">
         <div class="partnersycontratacion-partnersycontratacion">
           <div class="partnersycontratacion-frame3">
-
             <div class="index-header">
               <a href="{% url 'pettiApp:index' %}">
-                  <img
-                      src="{% static 'images/logo1.png' %}"
-                      alt="IMAGE2111261"
-                      class="index-image2111"
-                  />
+                <img
+                  src="{% static 'images/logo1.png' %}"
+                  alt="IMAGE2111261"
+                  class="index-image2111"
+                />
               </a>
-            
+
               <div class="index-navigation-pill-list">
                 <div class="index-navigation-pill1"></div>
                 <div class="index-navigation-pill2"></div>
                 <div class="index-navigation-pill3">
                   <span class="index-text10 SingleLineBodyBase">
-                    <a href="{% url 'pettiApp:perfil_partner' %}">Perfil Partner</a>
+                    <a href="{% url 'pettiApp:perfil_partner' %}"
+                      >Perfil Partner</a
+                    >
                   </span>
                 </div>
                 <div class="index-navigation-pill4">
                   <span class="index-text12 SingleLineBodyBase">
-                    <a href="{% url 'pettiApp:busqueda_servicios' %}">Nuestros Servicios</a>
+                    <a href="{% url 'pettiApp:busqueda_servicios' %}"
+                      >Nuestros Servicios</a
+                    >
                   </span>
                 </div>
                 <div class="index-navigation-pill5">
@@ -131,14 +210,18 @@
                 </div>
               </div>
               <div class="index-header-auth">
-                <a href="{% url 'pettiApp:login' %}" class="index-button1"> Iniciar sesión </a>
-                
-                <a href="{% url 'pettiApp:registro_usuarios' %}" class="index-button2">
+                <a href="{% url 'pettiApp:login' %}" class="index-button1">
+                  Iniciar sesión
+                </a>
+
+                <a
+                  href="{% url 'pettiApp:registro_usuarios' %}"
+                  class="index-button2"
+                >
                   <button>Regístrate</button>
-               </a>
+                </a>
               </div>
             </div>
-  
 
             <div class="partnersycontratacion-card-grid-image">
               <div class="partnersycontratacion-text-content-heading">
@@ -162,7 +245,6 @@
                     </span>
                   </div>
                   <div class="partnersycontratacion-keyword-list10">
-
                     <!-- Funcionalidad filtrar servicios de peluqueria-->
                     <div class="partnersycontratacion-tag10">
                       <span
@@ -172,12 +254,11 @@
                       </span>
                       <button>
                         <img
-                        src="{% static 'images/equis.svg' %}"
-                        alt="XI126"
-                        class="partnersycontratacion-x1"
-                      />
+                          src="{% static 'images/equis.svg' %}"
+                          alt="XI126"
+                          class="partnersycontratacion-x1"
+                        />
                       </button>
-                      
                     </div>
 
                     <!-- Funcionalidad filtrar servicios de cuidado de mascotas-->
@@ -189,12 +270,11 @@
                       </span>
                       <button>
                         <img
-                        src="{% static 'images/equis.svg' %}"
-                        alt="XI126"
-                        class="partnersycontratacion-x2"
-                      />
+                          src="{% static 'images/equis.svg' %}"
+                          alt="XI126"
+                          class="partnersycontratacion-x2"
+                        />
                       </button>
-                      
                     </div>
 
                     <!-- Funcionalidad filtrar servicios de paseos-->
@@ -206,15 +286,12 @@
                       </span>
                       <button>
                         <img
-                        src="{% static 'images/equis.svg' %}"
-                        alt="XI126"
-                        class="partnersycontratacion-x3"
-                      />
+                          src="{% static 'images/equis.svg' %}"
+                          alt="XI126"
+                          class="partnersycontratacion-x3"
+                        />
                       </button>
-                      
                     </div>
-
-
                   </div>
                 </div>
 
@@ -233,7 +310,7 @@
                       </span>
                     </div>
                   </div>
-                
+
                   <!-- Funcionalidad filtrar por precio con range (compacto)-->
                   <div class="partnersycontratacion-slider1">
                     <input
@@ -245,12 +322,10 @@
                       value="5000"
                       id="priceRange"
                       aria-label="Rango de precio"
-                      style="width: 100%; height: 8px; margin-top: 5px;"
+                      style="width: 100%; height: 8px; margin-top: 5px"
                     />
                   </div>
                 </div>
-                
-
 
                 <!-- Funcionalidad filtrar servicios por los diferentes animales-->
                 <div class="partnersycontratacion-section11">
@@ -263,7 +338,10 @@
                     <div class="partnersycontratacion-checkbox-field1">
                       <div class="partnersycontratacion-checkboxand-label1">
                         <div class="partnersycontratacion-checkbox1">
-                          <input type="checkbox" class="registrodesesindeusuarios-check1" />
+                          <input
+                            type="checkbox"
+                            class="registrodesesindeusuarios-check1"
+                          />
                         </div>
                         <span class="partnersycontratacion-text132 BodyBase">
                           <span>Todos</span>
@@ -273,7 +351,10 @@
                     <div class="partnersycontratacion-checkbox-field2">
                       <div class="partnersycontratacion-checkboxand-label2">
                         <div class="partnersycontratacion-checkbox2">
-                          <input type="checkbox" class="registrodesesindeusuarios-check2" />
+                          <input
+                            type="checkbox"
+                            class="registrodesesindeusuarios-check2"
+                          />
                         </div>
                         <span class="partnersycontratacion-text134 BodyBase">
                           <span>Perros</span>
@@ -283,7 +364,10 @@
                     <div class="partnersycontratacion-checkbox-field3">
                       <div class="partnersycontratacion-checkboxand-label3">
                         <div class="partnersycontratacion-checkbox3">
-                          <input type="checkbox" class="registrodesesindeusuarios-check3" />
+                          <input
+                            type="checkbox"
+                            class="registrodesesindeusuarios-check3"
+                          />
                         </div>
                         <span class="partnersycontratacion-text136 BodyBase">
                           <span>Gatos</span>
@@ -293,7 +377,10 @@
                   </div>
                   <div class="partnersycontratacion-checkboxand-label4">
                     <div class="partnersycontratacion-checkbox4">
-                      <input type="checkbox" class="registrodesesindeusuarios-check4" />
+                      <input
+                        type="checkbox"
+                        class="registrodesesindeusuarios-check4"
+                      />
                     </div>
                     <span class="partnersycontratacion-text138 BodyBase">
                       <span>Roedores</span>
@@ -301,7 +388,10 @@
                   </div>
                   <div class="partnersycontratacion-checkboxand-label5">
                     <div class="partnersycontratacion-checkbox5">
-                      <input type="checkbox" class="registrodesesindeusuarios-check5" />
+                      <input
+                        type="checkbox"
+                        class="registrodesesindeusuarios-check5"
+                      />
                     </div>
                     <span class="partnersycontratacion-text140 BodyBase">
                       <span>Pájaros</span>
@@ -309,22 +399,19 @@
                   </div>
                   <div class="partnersycontratacion-checkboxand-label6">
                     <div class="partnersycontratacion-checkbox6">
-                      <input type="checkbox" class="registrodesesindeusuarios-check6" />
+                      <input
+                        type="checkbox"
+                        class="registrodesesindeusuarios-check6"
+                      />
                     </div>
                     <span class="partnersycontratacion-text142 BodyBase">
                       <span>Otros</span>
                     </span>
                   </div>
                 </div>
-                
-
-
-
-
               </div>
               <div class="partnersycontratacion-section-product-grid">
                 <div class="partnersycontratacion-filter-bar">
-
                   <!-- Input Funcionalidad buscar servicios (texto-lupa) -->
                   <div class="partnersycontratacion-search-filter">
                     <div class="partnersycontratacion-search1">
@@ -336,79 +423,92 @@
                       />
                       <button>
                         <img
-                        src="{% static 'images/lupa.svg' %}"
-                        alt="Buscar"
-                        class="partnersycontratacion-search2"
-                      />
+                          src="{% static 'images/lupa.svg' %}"
+                          alt="Buscar"
+                          class="partnersycontratacion-search2"
+                        />
                       </button>
-                      
                     </div>
                   </div>
 
-
                   <!-- Ordenar por ascendente,descendente, calificacion -->
-                  <div class="partnersycontratacion-tag-toggle-group btn-group" role="group" aria-label="Filtros">
+                  <div
+                    class="partnersycontratacion-tag-toggle-group btn-group"
+                    role="group"
+                    aria-label="Filtros"
+                  >
                     <!-- Botón Precio descendente -->
                     <button
                       type="button"
                       class="partnersycontratacion-tag-toggle1 btn active"
-                      
                     >
                       <img
                         src="{% static 'images/check.svg' %}"
                         alt="Check"
                         class="partnersycontratacion-check7"
                       />
-                      <span class="partnersycontratacion-text146 SingleLineBodyBase">
+                      <span
+                        class="partnersycontratacion-text146 SingleLineBodyBase"
+                      >
                         <span>Precio descendente</span>
                       </span>
                     </button>
-                  
+
                     <!-- Botón Precio ascendente -->
                     <button
                       type="button"
                       class="partnersycontratacion-tag-toggle2 btn"
-                     
                     >
                       <img
                         src="{% static 'images/check.svg' %}"
                         alt="Check"
                         class="partnersycontratacion-check7 d-none"
                       />
-                      <span class="partnersycontratacion-text148 SingleLineBodyBase">
+                      <span
+                        class="partnersycontratacion-text148 SingleLineBodyBase"
+                      >
                         <span>Precio ascendente</span>
                       </span>
                     </button>
-                  
+
                     <!-- Botón Calificación -->
                     <button
                       type="button"
                       class="partnersycontratacion-tag-toggle3 btn"
-                      
                     >
                       <img
                         src="{% static 'images/check.svg' %}"
                         alt="Check"
                         class="partnersycontratacion-check7 d-none"
                       />
-                      <span class="partnersycontratacion-text150 SingleLineBodyBase">
+                      <span
+                        class="partnersycontratacion-text150 SingleLineBodyBase"
+                      >
                         <span>Calificación</span>
                       </span>
                     </button>
                   </div>
-                  
-                  
-
-
-                  
                 </div>
+                <pre>partners: {{ partners }}</pre>
+                <hr />
+                <pre>
+for:
+{% for partner in partners %}
+  {{ partner }}
+{%endfor%}
+</pre
+                >
                 <div class="partnersycontratacion-card-grid1">
+                  {% for partner in partners %}
                   <div class="partnersycontratacion-product-info-card1">
                     <div class="partnersycontratacion-image1"></div>
                     <div class="partnersycontratacion-body1">
                       <div class="partnersycontratacion-text152">
                         <span class="partnersycontratacion-text153 BodyStrong">
-                          <span>Alejandra Avila</span>
+                          <span
+                            >***{{ partner.first_name }} {{ partner.last_name
+                            }}</span
+                          >
                         </span>
                       </div>
                       <div class="partnersycontratacion-rating1">
@@ -471,11 +571,11 @@
                         >
                           <span>Ver más</span>
                         </span>
-
                       </button>
                       <div class="partnersycontratacion-text-strong1"></div>
                     </div>
                   </div>
+                  {% endfor %}
                   <div class="partnersycontratacion-product-info-card2">
                     <div class="partnersycontratacion-image2"></div>
                     <div class="partnersycontratacion-body2">
@@ -544,8 +644,6 @@
                         >
                           <span>Ver más</span>
                         </span>
-
-
                       </button>
                       <div class="partnersycontratacion-text-strong2"></div>
                     </div>
@@ -618,8 +716,6 @@
                         >
                           <span>Ver más</span>
                         </span>
-
-
                       </button>
                       <div class="partnersycontratacion-text-strong3"></div>
                     </div>
@@ -694,8 +790,6 @@
                         >
                           <span>Ver más</span>
                         </span>
-
-
                       </button>
                       <div class="partnersycontratacion-text-strong4"></div>
                     </div>
@@ -710,7 +804,7 @@
                       </div>
                       <div class="partnersycontratacion-rating5">
                         <img
-                          src="{% static 'images/star.svg' %}" 
+                          src="{% static 'images/star.svg' %}"
                           alt="Star1582"
                           class="partnersycontratacion-star30"
                         />
@@ -769,7 +863,6 @@
                           <span>Ver más</span>
                         </span>
                       </button>
-
 
                       <div class="partnersycontratacion-text-strong5"></div>
                     </div>
@@ -844,147 +937,137 @@
                         </span>
                       </button>
 
-
                       <div class="partnersycontratacion-text-strong6"></div>
                     </div>
                   </div>
-
-
-
                 </div>
               </div>
             </div>
-            
+
             <div class="index-footer">
-                <div class="index-title1">
+              <div class="index-title1">
+                <img
+                  src="{% static 'images/logo2.png' %}"
+                  alt="IMAGE2111261"
+                  class="index-image2112"
+                />
+                <span class="index-text72 BodyStrong">
+                  <span>Nuestras redes</span>
+                </span>
+                <button class="index-button-list">
                   <img
-                    src="{% static 'images/logo2.png' %}"
-                    alt="IMAGE2111261"
-                    class="index-image2112"
+                    src="{% static 'images/logox.svg' %}"
+                    alt="XLogo1261"
+                    class="index-x-logo"
                   />
-                  <span class="index-text72 BodyStrong">
-                    <span>Nuestras redes</span>
+                  <img
+                    src="{% static 'images/logoinstagram.svg' %}"
+                    alt="LogoInstagram1261"
+                    class="index-logo-instagram"
+                  />
+                  <img
+                    src="{% static 'images/logoyoutube.svg' %}"
+                    alt="LogoYouTube1261"
+                    class="index-logo-you-tube"
+                  />
+                  <img
+                    src="{% static 'images/logolinkedin.svg' %}"
+                    alt="LinkedIn1261"
+                    class="index-linked-in"
+                  />
+                </button>
+              </div>
+              <div class="index-text-link-list1">
+                <div class="index-title2">
+                  <div class="index-text-strong1">
+                    <span class="index-text74 BodyStrong">
+                      <span>Contacto</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="index-text-link-list-item10">
+                  <span class="index-text76 BodyLink">
+                    <span>Mail: petti@gmail.com</span>
                   </span>
-                  <button class="index-button-list">
-                    <img
-                      src="{% static 'images/logox.svg' %}"
-                      alt="XLogo1261"
-                      class="index-x-logo"
-                    />
-                    <img
-                      src="{% static 'images/logoinstagram.svg' %}"
-                      alt="LogoInstagram1261"
-                      class="index-logo-instagram"
-                    />
-                    <img
-                      src="{% static 'images/logoyoutube.svg' %}"
-                      alt="LogoYouTube1261"
-                      class="index-logo-you-tube"
-                    />
-                    <img
-                      src="{% static 'images/logolinkedin.svg' %}"
-                      alt="LinkedIn1261"
-                      class="index-linked-in"
-                    />
-                  </button>
                 </div>
-                <div class="index-text-link-list1">
-                  <div class="index-title2">
-                    <div class="index-text-strong1">
-                      <span class="index-text74 BodyStrong">
-                        <span>Contacto</span>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="index-text-link-list-item10">
-                    <span class="index-text76 BodyLink">
-                      <span>Mail: petti@gmail.com</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item11">
-                    <span class="index-text78 BodyLink">
-                      <span>Whatsapp: +999 99999999</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item12">
-                    <span class="index-text80 BodyLink">
-                      <span>Fono: +999 99999999</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item13"></div>
-                  <div class="index-text-link-list-item14"></div>
-                  <div class="index-text-link-list-item15"></div>
-                  <div class="index-text-link-list-item16"></div>
+                <div class="index-text-link-list-item11">
+                  <span class="index-text78 BodyLink">
+                    <span>Whatsapp: +999 99999999</span>
+                  </span>
                 </div>
-                <div class="index-text-link-list2">
-                  <div class="index-title3">
-                    <div class="index-text-strong2">
-                      <span class="index-text82 BodyStrong">
-                        <span>Petti</span>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="index-text-link-list-item17">
-                    <span class="index-text84 BodyLink">
-                      <span>Acerca de Petti</span>
+                <div class="index-text-link-list-item12">
+                  <span class="index-text80 BodyLink">
+                    <span>Fono: +999 99999999</span>
+                  </span>
+                </div>
+                <div class="index-text-link-list-item13"></div>
+                <div class="index-text-link-list-item14"></div>
+                <div class="index-text-link-list-item15"></div>
+                <div class="index-text-link-list-item16"></div>
+              </div>
+              <div class="index-text-link-list2">
+                <div class="index-title3">
+                  <div class="index-text-strong2">
+                    <span class="index-text82 BodyStrong">
+                      <span>Petti</span>
                     </span>
-                  </div>
-                  <div class="index-text-link-list-item18">
-                    <span class="index-text86 BodyLink">
-                      <span>Trabaja con nosotros</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item19"></div>
-                  <div class="index-text-link-list-item20"></div>
-                  <div class="index-text-link-list-item21"></div>
-                  <div class="index-text-link-list-item22"></div>
-                  <div class="index-text-link-list-item23">
-                    <span class="index-text88 BodyBase"></span>
                   </div>
                 </div>
-                <div class="index-text-link-list3">
-                  <div class="index-title4">
-                    <div class="index-text-strong3">
-                      <span class="index-text89 BodyStrong">
-                        <span>Links de interés</span>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="index-text-link-list-item24">
-                    <span class="index-text91 BodyLink">
-                      <span>Términos y condiciones</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item25">
-                    <span class="index-text93 BodyLink">
-                      <span>Politica de privacidad</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item26">
-                    <span class="index-text95 BodyLink">
-                      <span>Preguntas frecuentes</span>
-                    </span>
-                  </div>
-                  <div class="index-text-link-list-item27">
-                    <span class="index-text97 BodyBase"></span>
-                  </div>
-                  <div class="index-text-link-list-item28">
-                    <span class="index-text98 BodyBase"></span>
-                  </div>
-                  <div class="index-text-link-list-item29">
-                    <span class="index-text99 BodyBase"></span>
-                  </div>
-                  <div class="index-text-link-list-item30">
-                    <span class="index-text100 BodyBase"></span>
-                  </div>
+                <div class="index-text-link-list-item17">
+                  <span class="index-text84 BodyLink">
+                    <span>Acerca de Petti</span>
+                  </span>
+                </div>
+                <div class="index-text-link-list-item18">
+                  <span class="index-text86 BodyLink">
+                    <span>Trabaja con nosotros</span>
+                  </span>
+                </div>
+                <div class="index-text-link-list-item19"></div>
+                <div class="index-text-link-list-item20"></div>
+                <div class="index-text-link-list-item21"></div>
+                <div class="index-text-link-list-item22"></div>
+                <div class="index-text-link-list-item23">
+                  <span class="index-text88 BodyBase"></span>
                 </div>
               </div>
-
-
-
-
-
-
+              <div class="index-text-link-list3">
+                <div class="index-title4">
+                  <div class="index-text-strong3">
+                    <span class="index-text89 BodyStrong">
+                      <span>Links de interés</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="index-text-link-list-item24">
+                  <span class="index-text91 BodyLink">
+                    <span>Términos y condiciones</span>
+                  </span>
+                </div>
+                <div class="index-text-link-list-item25">
+                  <span class="index-text93 BodyLink">
+                    <span>Politica de privacidad</span>
+                  </span>
+                </div>
+                <div class="index-text-link-list-item26">
+                  <span class="index-text95 BodyLink">
+                    <span>Preguntas frecuentes</span>
+                  </span>
+                </div>
+                <div class="index-text-link-list-item27">
+                  <span class="index-text97 BodyBase"></span>
+                </div>
+                <div class="index-text-link-list-item28">
+                  <span class="index-text98 BodyBase"></span>
+                </div>
+                <div class="index-text-link-list-item29">
+                  <span class="index-text99 BodyBase"></span>
+                </div>
+                <div class="index-text-link-list-item30">
+                  <span class="index-text100 BodyBase"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

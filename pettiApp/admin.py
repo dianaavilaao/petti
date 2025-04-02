@@ -24,12 +24,12 @@ class CustomUserAdmin(UserAdmin):
     list_display = ("email",)
     ordering = ("date_joined",)
     fieldsets = (
-        (None, {'fields': ('email', 'username', 'password', 'first_name', 'last_name')}),
+        (None, {'fields': ('email', 'username', 'password', 'first_name', 'last_name', 'is_partner')}),
     )
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
-            'fields': ('email', 'username', 'password', 'first_name', 'last_name', 'is_superuser',
+            'fields': ('email', 'username', 'password', 'first_name', 'last_name', 'is_partner', 'is_superuser',
                        'is_staff', 'is_active')}
          ),
     )
