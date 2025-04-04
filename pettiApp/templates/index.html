@@ -231,7 +231,24 @@
           </div>
 
           <!-- HEADER -->
-
+          <div class="weather-widget" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 10px; padding: 15px; margin: 20px auto; max-width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+            <h3 style="margin-bottom: 10px; color: #333;">Clima en {{ weather.city }}</h3>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <img src="https://openweathermap.org/img/wn/{{ weather.icon }}@2x.png" alt="Weather icon" style="width: 60px; height: 60px;">
+                <div style="font-size: 24px; font-weight: bold; margin-left: 10px;">{{ weather.temperature }}°C</div>
+            </div>
+            <p style="margin-top: 5px; text-transform: capitalize;">{{ weather.description }}</p>
+            <div style="display: flex; justify-content: space-around; margin-top: 10px;">
+                <div>
+                    <span style="font-size: 14px; color: #666;">Humedad</span>
+                    <p style="margin: 0; font-weight: bold;">{{ weather.humidity }}%</p>
+                </div>
+                <div>
+                    <span style="font-size: 14px; color: #666;">Viento</span>
+                    <p style="margin: 0; font-weight: bold;">{{ weather.wind_speed }} m/s</p>
+                </div>
+            </div>
+        </div>
 
 
           <div class="index-hero-actions">

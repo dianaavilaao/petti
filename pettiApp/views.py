@@ -4,10 +4,64 @@ from django.contrib.auth import login, authenticate
 from django.shortcuts import render
 from django.urls import reverse
 from pettiApp import forms, models
-
+import requests
 
 def index(request):
-    return render(request, 'index.html')
+    weather_data = get_weather_data("Santiago")
+    context = {
+        'weather': weather_data
+    }
+    return render(request, 'index.html', context)
+
+def get_weather_data(city):
+    api_key = "1a2c757e3bace7a48948bc12225ed37c"  
+    base_url = "https://api.openweathermap.org/data/2.5/weather"
+    
+    try:
+        params = {
+            'q': city,
+            'appid': api_key,
+            'units': 'metric'  
+        }
+        
+        response = requests.get(base_url, params=params)
+        print(f"API Response Status: {response.status_code}")
+        
+        data = response.json()
+        print(f"API Response Data: {data}")
+        
+        if response.status_code == 200:
+            weather_info = {
+                'city': data['name'],
+                'temperature': round(data['main']['temp']),
+                'description': data['weather'][0]['description'],
+                'icon': data['weather'][0]['icon'],
+                'humidity': data['main']['humidity'],
+                'wind_speed': data['wind']['speed']
+            }
+            return weather_info
+        else:
+            print(f"Error en la API: {data.get('message', 'No hay mensaje de error')}")
+            return {
+                'city': city,
+                'temperature': '--',
+                'description': 'No disponible',
+                'icon': '01d',  
+                'humidity': '--',
+                'wind_speed': '--'
+            }
+    except Exception as e:
+        print(f"Error detallado al obtener datos del clima: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return {
+            'city': city,
+            'temperature': '--',
+            'description': 'No disponible',
+            'icon': '01d',  
+            'humidity': '--',
+            'wind_speed': '--'
+        }
 
 def busqueda_servicios(request):
     partners = models.User.objects.filter(is_partner=True)
